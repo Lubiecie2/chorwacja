@@ -6,3 +6,7 @@
 .bg-red {
 	background-color: #eb5757;
 }
+
+.hero{
+	background-image: url('../img/hero.jpg');
+}

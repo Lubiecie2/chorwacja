@@ -4,6 +4,7 @@
 
 .text-lg {
 	font-size: 1.125rem; 	
+
 }
 
 .text-white{
@@ -15,7 +16,7 @@
 }
 
 .text-menu{
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 .text-mc{
@@ -24,4 +25,14 @@
 
 a {
 	text-decoration: none;
+}
+
+.button-link{
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 4px 15px;
+	display: inline;
+}
+.mb-1{
+	margin-bottom: 1rem;
 }
