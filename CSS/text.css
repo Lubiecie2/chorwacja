@@ -31,8 +31,32 @@ a {
 	border: 1px solid white;
 	border-radius: 5px;
 	padding: 4px 15px;
-	display: inline;
+
 }
 .mb-1{
 	margin-bottom: 1rem;
+}
+.mb-2{
+	margin-bottom: 1rem;
+}
+.button-link2{
+	width: 70px;
+	border: 1px solid white;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	font-size: 1rem;
+	font-family: Tahoma;
+	font-weight: 500;
+	padding: 4px 15px;
+}
+.button-link2:hover{
+	background-color: white;
+	color: black;
+}
+.hero-float{
+	text-align: right;
+}
+.text-red{
+	color: #eb5757;;
 }

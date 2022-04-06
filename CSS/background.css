@@ -6,7 +6,16 @@
 .bg-red {
 	background-color: #eb5757;
 }
-
 .hero{
-	background-image: url('../img/hero.jpg');
+	background: linear-gradient(360deg, #222, rgba(34, 34, 34, 0.5)), url("../img/hero.jpg");
+	min-height: 500px;
+	background-size:cover;
+}
+.hero2{
+	background: linear-gradient(360deg, #222, rgba(34, 34, 34, 0.5)), url("../img/hero2.jpg");
+	min-height: 500px;
+	background-size:cover;
+}
+.footer{
+	background-color:#222; ;
 }
