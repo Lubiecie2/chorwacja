@@ -12,12 +12,62 @@
 	nav, .logo{
 		flex: initial;
 	}
+	.evil img{
+	display: block;
+	height: 300px;
+	position: relative; 
+	left:60px; 
+	top: 60px;
+}
 }
 
 
 @media only screen and (min-width: 1200px) {
 	.container {
+		
 		width: 1200px;
 		margin: 0 auto;
 	}
+	.evil img{
+	display: block;
+	height: 300px;
+	position: relative; 
+	left:60px; 
+	top: 60px;
+}
+}
+@media only screen and (min-width: 768px) {
+	.grid{
+	grid-template-columns: repeat(3,1fr);
+}
+}
+@media only screen and (min-width: 1200px) {
+.evil{
+	display: flex;
+}
+.evil img{
+	display: block;
+	height: 300px;
+	position: relative; 
+	left:60px; 
+	top: 60px;
+}
+.evil-box{
+	background-color: #222;
+	height: 450px;
+	width: 700px;
+}
+.evil-text{
+	width: 70%;
+	float: right;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+.evil-title{
+	font-size: 2rem;
+	padding: 10px 0px;
+}
+.a{
+	padding: 15px 0;
+}
 }
